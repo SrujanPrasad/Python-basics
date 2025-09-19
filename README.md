@@ -1,10 +1,10 @@
 # Python Programming Basics
 
-## first program
+## First program
 ```python
 print("Hello srujan")
 ```
-## to gather input from user
+## To gather input from user
 ```python
 x=input("Enter your name ")
 print('Hi ' +x)
@@ -13,7 +13,7 @@ name=input("Enter your name :")
 color=input("Enter your favourite color :")
 print(name + ' likes ' + color)
 ```
-## typecasting- converting from one datatype to another
+## Typecasting- converting from one datatype to another
 ```python
 birthyear=input("Enter your birthyear ")
 print(type(birthyear))  #denotes the type of the datatype
