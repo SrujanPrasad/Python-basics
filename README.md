@@ -152,6 +152,177 @@ else:
     print('Name looks good!')
 ```
 
+## Weight converter game
+```python
+weight=input('Enter your weight :')
+choice=input("(L)lbs or (K) kg ? :")
+if choice=='l' or choice=='L' :
+    your_weight=float(weight)/2.2
+    print(f"Your weight in kg is {your_weight}")
+elif choice=='k' or choice=='K':
+    your_weight=float(weight)*2.2
+    print(f"Your weight in pounds is {your_weight}")
+else:
+    print('Incorrect choice')
+```
+
+## Loop statements - while , do while , for
+```python
+i=0
+while(i<5):
+    print('*'*i)
+    i+=1
+print("Printed")
+```
+
+## Guess game using while loops
+```python
+secret=9;
+Guess=0
+guess_limit=3
+while Guess<guess_limit:
+    guess=int(input('Guess :'))
+    Guess += 1
+    if guess==secret:
+        print('You won ')
+        break
+else:
+    print('You lose')
+```
+## Multi line string
+```python
+print("""Hi ABCD
+Welcome to our python tutorial
+hope you gave fun""");      #multiline string 
+```
+## For loops
+```python
+for x in "Helloworld" : #print all the letters
+    print(x)
+
+for y in range(8,10):        #to print certain range of numbers we use the range function
+    print(y)
+
+total=0
+for prices in [10,20,30]:
+    total+=prices
+print(f"The total price is {total}")
+
+#sum of first 10 natural numbers
+sum=0
+for i in range(10):
+    sum+=i
+print(f"the sum is {sum}")
+
+#sum of first 10 even numbers
+sum=0
+for i in range(10):
+    if i%2==0:
+        sum+=i
+print(f"the sum is {sum}")
+
+#sum of first 10 odd numbers
+sum=0
+for i in range(10):
+    if i%2!=0:
+        sum+=i
+print(f"the sum is {sum}")
+'''
+
+#nested for loops
+#generate coordinates
+'''
+for x in range(4):
+    for y in range(3):
+        print(f"({x},{y})")
+
+numbers=[2,2,2,2,6]
+for x in numbers:
+    output=''
+    for y in range(x):
+        output+='x'
+    print(output)
+
+#star pattern
+stars=[1,2,3,4]
+for x in stars:
+    output=''
+    for y in range(x):
+        output+='*'
+    print(output)
+#inverted star
+stars=[4,3,2,1]
+for x in stars:
+    output=''
+    for y in range(x):
+        output+='*'
+    print(output)
+```
+## Lists
+```python
+names=['A','B','C','D']         # []
+print(names[2:])
+
+#to find largest of numbers
+numbers=[10,12,15,1]
+max=numbers[0]
+for x in numbers:
+    if x>max:
+        max=x
+print(max)
+
+#to find smallest of numbers
+numbers1=[10,20,24,32]
+min=numbers1[0]
+for y in numbers1:
+    if y<min:
+        min=y
+print(min)
+```
+## 2d lists
+```python
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+matrix[0][1]=20
+matrix[1][2]=40
+print(matrix[0][1])
+print(matrix[1][2])
+
+numbers1=[209,15,24,322]
+numbers1.sort()         #to sort the numbers
+print(numbers1)
+
+#program to remove duplicates in a list
+numbers2=[10,12,10,100]
+uniques=[]
+for x in numbers2:
+    if x not in uniques:
+        uniques.append(x)
+print(uniques)
+```
+
+## Tuples
+```python
+numbers=(1,2,3)
+numbers[0]=10   #we cannot change the contents of a tuple 'tuple' object does not support item assignment
+print(numbers[0])
+```
+
+## Dictionaries
+```python
+customer={
+    "name":"ABC",
+    "age":12,
+    "is_verified":True,
+    "DOB":"7 JAN 1900"
+}
+print(customer.get("age"))      # to get the information from a dictionary we use get()
+print(customer.get("DOB"))
+```
+
 
 
 
