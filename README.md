@@ -322,6 +322,91 @@ customer={
 print(customer.get("age"))      # to get the information from a dictionary we use get()
 print(customer.get("DOB"))
 ```
+## Functions
+```python
+def first_fun():            #def function_name() :
+    print("Hello World")
+    print("This is the first function")
+first_fun()     #function can be called only after the function has been defined
+
+#calculator using functions
+def calculator(a,b):            #the variables inside the function are called as the parameters
+    print(a+b)  #sum
+    print(a-b)  #difference
+    print(a*b)  #product
+    print(a//b) #divide
+    print(a%b)  #remainder
+    print(a*a)  #square
+print("The results are :")
+calculator(10,5)
+
+def names(first_name,last_name):
+    print("The first name is :"+first_name)
+    print("The last name is :"+last_name)
+names("ABC","DEF")
+```
+
+## Exceptions -try and except
+```python
+try:                                        #try block executes the normal statements
+    age=int(input(">Enter your age:"))
+    print(age)
+except ValueError:                          #exception tells what to do when an error occurs
+    print("Invalid value")
+
+#division by 0
+try:
+    a=int(input("Enter num1:"))
+    b=int(input("Enter num2:"))
+    div=a/b
+    print(div)
+except ZeroDivisionError:
+    print('Cannot divide by 0')
+```
+
+## Comments
+#followed by the text
+
+## Class
+```python
+class new:                  #class class_name
+    def move(self):
+        print("move")
+    def draw(self):         #methods of a particular class
+        print("draw")
+new1=new()
+new1.move()
+new1.draw()
+```
+
+## Constructors
+```python
+class Person:
+    def __init__(self,name):        #this is a constructor
+        self.name=name
+    def talk(self):
+        print("talk")
+x=Person("ABC")
+x.talk()
+print(x.name)
+```
+## Inheritance
+```python
+class Mammal:
+    def walk(self):
+        print("walk")
+class Dog(Mammal):
+    pass
+
+class Cat:
+    def walk(self):         #this is a function in the cat class
+        print("Cats meows")
+dog1=Dog()
+dog1.walk()
+cat1=Cat()
+cat1.walk()
+```
+
 
 
 
