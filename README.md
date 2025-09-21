@@ -407,7 +407,60 @@ cat1=Cat()
 cat1.walk()
 ```
 
+## Modules
+```python
+import convertors           #this is another python file
+from convertors import pounds_to_kg     #importing only required function
+print(pounds_to_kg(100))
 
+
+import utilis           #utilis is a separate file for minimizing complexity
+numbers=[10,20,2,189]
+print(utilis.find_max(numbers))
+print(utilis.find_min(numbers))
+```
+
+## packages
+```python
+from ecommerce import shipping
+shipping.calc_shipping()    #second way
+#ecommerce.shipping.calc_shipping()
+```
+
+## To generate random numbers
+```python
+import random               #predefined function
+for i in range(4):
+    print(random.randint(1,10))
+members=['A','B','C','D','E']
+leader=random.choice(members)       #choice is a predefined method in random
+print(leader)
+```
+
+## To roll a die using random module
+```python
+import random
+class Dice:
+    def roll(self):
+        first=random.randint(1,6)
+        second=random.randint(1,6)
+        return first,second
+
+dice=Dice()
+print(dice.roll())
+```
+
+## To toss a coin using random module
+```python
+import random
+class Coin:
+    def result(self):
+        choice=['Heads','Tails']
+        result=random.choice(choice)
+        return result
+coin=Coin()
+print(coin.result())
+```
 
 
 
