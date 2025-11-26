@@ -205,6 +205,12 @@ while(i<5):
     print('*'*i)
     i+=1
 print("Printed")
+
+i=10  #print reverse
+while(i>0) 
+    print("*" *i)
+    i-=1
+print("Printed")
 ```
 
 ## Guess game using while loops
