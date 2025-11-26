@@ -316,6 +316,19 @@ for y in numbers1:
     if y<min:
         min=y
 print(min)
+
+marks=[98,99,100]
+print(marks[0:2])
+
+marks.append(90)
+print(marks)
+
+marks.insert(1,89)
+print(marks)
+
+marks.clear()        # deletes the contents of the list
+print(marks)
+    
 ```
 ## 2d lists
 ```python
