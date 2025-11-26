@@ -93,6 +93,8 @@ a+=a    #a=a+a
 print(a)
 a-=a    #a=a+a
 print(a)
+a*=a    #a=a+a
+print(a)
 ```
 ## Operator precedence - exponentiation , multiplication or division ,  addition or subtraction
 ```python
