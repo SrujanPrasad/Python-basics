@@ -328,6 +328,19 @@ print(marks)
 
 marks.clear()        # deletes the contents of the list
 print(marks)
+
+students=['A','B','C','D','E','F']
+for i in students:
+    if i=="D":
+        break
+    print(i)
+
+students=['A','B','C','D','E','F']
+for i in students:
+    if i=="C":
+        continue
+    print(i)
+    
     
 ```
 ## 2d lists
