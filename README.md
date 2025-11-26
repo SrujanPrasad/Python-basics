@@ -211,6 +211,14 @@ while(i>0)
     print("*" *i)
     i-=1
 print("Printed")
+
+name="srujan prasad"
+vowels="aeiouAEIOU"
+count=0
+for ch in name :
+    if ch in vowels:
+        count+=1
+print(count)
 ```
 
 ## Guess game using while loops
