@@ -473,7 +473,7 @@ cat1.walk()
 
 ## Modules
 ```python
-import convertors           #this is another python file
+import convertors           #this is another Python file
 from convertors import pounds_to_kg     #importing only required function
 print(pounds_to_kg(100))
 
