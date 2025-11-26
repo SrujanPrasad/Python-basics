@@ -371,7 +371,7 @@ print(uniques)
 ## Tuples
 ```python
 numbers=(1,2,3)
-numbers[0]=10   #we cannot change the contents of a tuple 'tuple' object does not support item assignment
+numbers[0]=10   #we cannot change the contents of a tuple 'tuple' object does not support item assignment, they are immutable
 print(numbers[0])
 ```
 
