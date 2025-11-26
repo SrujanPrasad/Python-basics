@@ -28,6 +28,11 @@ print(weight_grams)
 height=input('Enter your height in cm');
 height_in_m=float(height)*100
 print(height_in_m)
+
+a=input('Enter first number : ')
+b=input('Enter the second number :')
+sum=int(a)+int(b) #typecasting from string to int
+print("The sum is :" + str(sum))
 ```
 
 ## String
@@ -41,6 +46,9 @@ print(course_new)
 
 name='Jennifer'
 print(name[1:-1])
+
+name="Tony Stark"
+print(name.find('K'))    # returns the index of the letter to find if found else returns -1
 
 ```
 ## Formatted strings
