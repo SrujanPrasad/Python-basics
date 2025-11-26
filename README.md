@@ -135,8 +135,8 @@ else :
 print(f"Downpayment is ${price}")
 ```
 
+## Mini Calculator
 ```python
-# Mini Calculator
 a=input('Enter the first number :')
 b=input('Enter the second number :')
 ch=input("Enter the choice from 1-5 :");
