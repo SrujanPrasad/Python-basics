@@ -146,7 +146,7 @@ else:
     print('Thank you')
 ```
 
-## Comparison operators - >,<,>=,<=,=,!=
+## Comparison operators - >,<,>=,<=,==,!=
 ```python
 temperature=35
 if temperature>35:
