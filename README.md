@@ -135,6 +135,25 @@ else :
 print(f"Downpayment is ${price}")
 ```
 
+```python
+# Mini Calculator
+a=input('Enter the first number :')
+b=input('Enter the second number :')
+ch=input("Enter the choice from 1-5 :");
+if ch=='1':
+    print(int(a)+int(b))
+elif ch=='2':
+    print(int(a)-int(b))
+elif ch=='3':
+    print(int(a)*int(b))
+elif ch=='4':
+    print(int(a)/int(b))
+elif ch=='5':
+    print(int(a)%int(b))
+else:
+    print('Enter valid choice')
+```
+
 ## Logical operators - and,or,not
 ```python
 highincome=False
