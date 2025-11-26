@@ -545,5 +545,14 @@ coin=Coin()
 print(coin.result())
 ```
 
+## Opening a file, reading and writing to a file :
+
+```python
+with open("file_name","r")as f :         # to read a file
+    print(f.read())
+
+with open("file_name","w")as f:          # to write contents to a file
+    f.write("New added")        
+```
 
 
