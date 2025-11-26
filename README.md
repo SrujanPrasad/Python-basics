@@ -4,7 +4,7 @@
 ```python
 print("Hello srujan")
 ```
-## To gather input from user
+## To gather input from the user
 ```python
 x=input("Enter your name ")
 print('Hi ' +x)
