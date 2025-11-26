@@ -385,6 +385,9 @@ customer={
 }
 print(customer.get("age"))      # to get the information from a dictionary we use get()
 print(customer.get("DOB"))
+
+student={"name" :"A" , "age" : 21}
+print(student["age"])
 ```
 ## Functions
 ```python
