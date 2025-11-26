@@ -49,6 +49,8 @@ print(name[1:-1])
 
 name="Tony Stark"
 print(name.find('K'))    # returns the index of the letter to find if found else returns -1
+print(name.replace('Tony Stark','Iron Man'))
+print('S' in name) #returns either true or false
 
 ```
 ## Formatted strings
