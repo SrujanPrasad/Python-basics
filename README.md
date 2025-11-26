@@ -114,7 +114,8 @@ print(math.ceil(x))
 print(math.floor(x))
 ```
 
-## Conditional statements -if,elif,else
+## Conditional statements -if,elif, else 
+Here, indendations are given instead of the curly braces.
 ```python
 is_hot=True
 is_cold=False
