@@ -411,6 +411,10 @@ def names(first_name,last_name):
     print("The first name is :"+first_name)
     print("The last name is :"+last_name)
 names("ABC","DEF")
+
+def printSum(a,b):
+    print(int(a)+int(b))
+printSum(1,2)
 ```
 
 ## Exceptions -try and except
@@ -485,6 +489,10 @@ import utilis           #utilis is a separate file for minimizing complexity
 numbers=[10,20,2,189]
 print(utilis.find_max(numbers))
 print(utilis.find_min(numbers))
+
+import math
+from math import sqrt
+print(sqrt(25))
 ```
 
 ## packages
